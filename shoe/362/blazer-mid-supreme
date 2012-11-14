@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sneaker Book </title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+        
+            <!-- JQM functional css and theme are separated, so we can easily remove style if needed -->
+            <!-- <link rel="stylesheet" href="/media/css/themes/wireframe.min.css" /> -->
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" />
+            <link rel="stylesheet/less" type="text/css" href="../../media/css/styles.less">
+            <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+        
+        
+        
+            <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+            <script src="../../media/js/jqm-config.js"></script>
+            <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+            <script src="../../media/js/less-1.3.0.min.js"></script>
+            <script src="../../media/js/script.js"></script>
+            <script src="../../media/js/jquery.fancybox.pack.js"></script>
+            <script src="../../media/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+            <script src="../../media/js/jquery.touchSwipe.min.js"></script>
+    
+            <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox({
+                    openEffect  : 'none',
+                    closeEffect : 'none', 
+                    padding: 0,
+                    margin: 0,
+                    closeClick: true,
+                    autoCenter: false,
+                    topRatio: 0,
+                    leftRatio: 0,
+                    beforeLoad : function() {
+                        $('#search_wrapper').hide();
+                    },
+                    afterClose : function() {
+                        $('#search_wrapper').show();
+                    }
+                });
+                $('#detail_body_slider').carouFredSel({
+                    auto: false,
+                    circular: false,
+                    infinite: false,
+                    pagination: "#detail_body_slider_pagination",
+                    scroll: {
+                        duration: 1000,
+                        easing: "quadratic"
+                    },
+                    swipe: {
+                        onTouch: true
+                    }
+                });
+
+            });
+            </script> 
+        
+    </head>
+    <body>
+        <div data-role="page" id="detail_362" class="main_container type-interior ui-page">
+
+            <div data-role="header" data-theme="none" data-position="fixed">
+                <h2 class="title">9 - Blazer Mid Supreme</h2>
+                  
+                    <div data-role="navbar">
+    <input name="search" id="search_bar" />
+</div> <!--/navbar -->
+                
+            </div>
+
+            <div data-role="content">
+                
+    <div id="sneaker_detail">
+        <div class="content-primary">
+            <div class="rotater_container" style="clear:both">
+                <img src="../../media/images/50/image_3090.jpg" id="rotate" width="600" height="450">
+            </div>
+        </div>
+        <div class="content-secondary">
+            <div class="slider">
+                <h3>Blazer Mid Supreme</h3>
+                <div class="detail_body">
+                    <ul id="detail_body_slider">
+                        <li>
+                            
+                                Penatibus
+                                
+                            
+                                rhoncus
+                                
+                            
+                                scelerisque
+                                
+                            
+                                convallis
+                                
+                            
+                                facilisis
+                                
+                            
+                                felis
+                                
+                            
+                                aliquam,
+                                
+                            
+                                curae
+                                
+                            
+                                magna
+                                
+                            
+                                augue
+                                
+                            
+                                turpis
+                                
+                            
+                                congue
+                                
+                            
+                                non
+                                
+                            
+                                libero,
+                                
+                            
+                                quam
+                                
+                            
+                                augue
+                                
+                            
+                                potenti
+                                
+                            
+                                ultrices.
+                                
+                            
+                                Fames
+                                
+                            
+                                aliquet
+                                
+                            
+                                lorem
+                                
+                            
+                                duis
+                                
+                            
+                                fames,
+                                
+                            
+                                vulputate
+                                
+                            
+                                diam
+                                
+                            
+                                vivamus
+                                
+                            
+                                vel
+                                
+                            
+                                urna,
+                                
+                            
+                                ad
+                                
+                            
+                                varius
+                                
+                            
+                                rhoncus
+                                
+                            
+                                accumsan,
+                                
+                            
+                                tortor
+                                
+                            
+                                luctus
+                                
+                            
+                                vestibulum
+                                
+                            
+                                dignissim,
+                                
+                            
+                                mi.
+                                
+                            
+                                Mollis
+                                
+                            
+                                ullamcorper
+                                
+                            
+                                non
+                                
+                            
+                                penatibus
+                                
+                            
+                                netus
+                                
+                            
+                                ut
+                                
+                            
+                                libero,
+                                
+                            
+                                consequat
+                                
+                            
+                                arcu
+                                
+                            
+                                ridiculus
+                                
+                                    </li><li>
+                                
+                            
+                                aptent
+                                
+                            
+                                consequat
+                                
+                            
+                                dictum,
+                                
+                            
+                                amet
+                                
+                            
+                                conubia
+                                
+                            
+                                justo
+                                
+                            
+                                leo
+                                
+                            
+                                sociosqu.
+                                
+                            
+                                Ipsum
+                                
+                            
+                                aenean
+                                
+                            
+                                felis
+                                
+                            
+                                faucibus,
+                                
+                            
+                                placerat
+                                
+                            
+                                potenti
+                                
+                            
+                                in.
+                                
+                            
+                                Nonummy
+                                
+                            
+                                dui
+                                
+                            
+                                dis
+                                
+                            
+                                pellentesque
+                                
+                            
+                                lacus
+                                
+                            
+                                posuere
+                                
+                            
+                                molestie,
+                                
+                            
+                                aptent
+                                
+                            
+                                elit
+                                
+                            
+                                litora
+                                
+                            
+                                netus
+                                
+                            
+                                mi,
+                                
+                            
+                                dapibus
+                                
+                            
+                                eget
+                                
+                            
+                                ornare
+                                
+                            
+                                sociosqu
+                                
+                            
+                                suscipit,
+                                
+                            
+                                aptent
+                                
+                            
+                                iaculis
+                                
+                            
+                                a
+                                
+                            
+                                nibh
+                                
+                            
+                                posuere,.
+                                
+                            
+                                Lobortis
+                                
+                            
+                                malesuada
+                                
+                            
+                                fusce
+                                
+                            
+                                imperdiet
+                                
+                            
+                                penatibus
+                                
+                            
+                                porta,
+                                
+                            
+                                habitasse
+                                
+                            
+                                ipsum
+                                
+                            
+                                cum
+                                
+                            
+                                mattis
+                                
+                                    </li><li>
+                                
+                            
+                                suscipit
+                                
+                            
+                                vulputate,
+                                
+                            
+                                felis
+                                
+                            
+                                tempus
+                                
+                            
+                                quisque
+                                
+                            
+                                hac
+                                
+                            
+                                sollicitudin
+                                
+                            
+                                duis
+                                
+                            
+                                ligula,.
+                                
+                            
+                                Ad
+                                
+                            
+                                eleifend
+                                
+                            
+                                platea
+                                
+                            
+                                viverra
+                                
+                            
+                                nunc
+                                
+                            
+                                sagittis
+                                
+                            
+                                nec
+                                
+                            
+                                mauris,
+                                
+                            
+                                dictum
+                                
+                            
+                                dolor
+                                
+                            
+                                ac
+                                
+                            
+                                maecenas
+                                
+                            
+                                mauris,
+                                
+                            
+                                enim
+                                
+                            
+                                nibh
+                                
+                            
+                                platea.
+                                
+                            
+                                Cum
+                                
+                            
+                                montes
+                                
+                            
+                                porttitor
+                                
+                            
+                                molestie
+                                
+                            
+                                leo
+                                
+                            
+                                viverra
+                                
+                            
+                                id,
+                                
+                            
+                                varius
+                                
+                            
+                                quisque
+                                
+                            
+                                parturient
+                                
+                            
+                                neque
+                                
+                            
+                                lorem,
+                                
+                            
+                                scelerisque
+                                
+                            
+                                tempor
+                                
+                            
+                                leo
+                                
+                            
+                                natoque
+                                
+                            
+                                vel,
+                                
+                            
+                                leo
+                                
+                            
+                                ipsum
+                                
+                            
+                                pede.
+                                
+                            
+                                Faucibus
+                                
+                            
+                                porttitor
+                                
+                                    </li><li>
+                                
+                            
+                                suscipit
+                                
+                            
+                                duis
+                                
+                            
+                                cum,
+                                
+                            
+                                tristique
+                                
+                            
+                                ut
+                                
+                            
+                                ultrices
+                                
+                            
+                                ac
+                                
+                            
+                                nam
+                                
+                            
+                                pulvinar
+                                
+                            
+                                congue,
+                                
+                            
+                                nec
+                                
+                            
+                                justo.
+                                
+                            
+                                Dictumst
+                                
+                            
+                                porttitor
+                                
+                            
+                                sollicitudin
+                                
+                            
+                                habitant
+                                
+                            
+                                aptent
+                                
+                            
+                                aenean
+                                
+                            
+                                donec,
+                                
+                            
+                                leo
+                                
+                            
+                                tempus
+                                
+                            
+                                magnis
+                                
+                            
+                                aliquam
+                                
+                            
+                                vehicula,
+                                
+                            
+                                eleifend
+                                
+                            
+                                ornare
+                                
+                            
+                                pretium
+                                
+                            
+                                penatibus
+                                
+                            
+                                facilisis
+                                
+                            
+                                metus
+                                
+                            
+                                nisl,
+                                
+                            
+                                neque
+                                
+                            
+                                habitant
+                                
+                            
+                                adipiscing.
+                                
+                            
+                                Neque
+                                
+                            
+                                fermentum
+                                
+                            
+                                cum
+                                
+                            
+                                lorem
+                                
+                            
+                                id
+                                
+                            
+                                aliquet,
+                                
+                            
+                                augue
+                                
+                            
+                                ut
+                                
+                            
+                                feugiat
+                                
+                            
+                                eget
+                                
+                            
+                                molestie,
+                                
+                            
+                                ultricies
+                                
+                            
+                                nisi
+                                
+                                    </li><li>
+                                
+                            
+                                elit
+                                
+                            
+                                convallis.
+                                
+                            
+                                Imperdiet
+                                
+                            
+                                morbi
+                                
+                            
+                                lacus
+                                
+                            
+                                justo,
+                                
+                            
+                                amet
+                                
+                            
+                                nibh
+                                
+                            
+                                netus
+                                
+                            
+                                potenti
+                                
+                            
+                                dignissim
+                                
+                            
+                                massa
+                                
+                            
+                                mollis,
+                                
+                            
+                                aptent
+                                
+                            
+                                faucibus
+                                
+                            
+                                viverra
+                                
+                            
+                                justo,
+                                
+                            
+                                taciti
+                                
+                            
+                                euismod
+                                
+                            
+                                suspendisse
+                                
+                            
+                                blandit,
+                                
+                            
+                                natoque
+                                
+                            
+                                dolor.
+                                
+                            
+                                Dictumst
+                                
+                            
+                                sit
+                                
+                            
+                                quisque.
+                                
+                            
+                                Fames
+                                
+                            
+                                dictum
+                                
+                            
+                                vel
+                                
+                            
+                                tincidunt
+                                
+                            
+                                montes
+                                
+                            
+                                posuere
+                                
+                            
+                                vel
+                                
+                            
+                                aptent,
+                                
+                            
+                                sapien
+                                
+                            
+                                enim
+                                
+                            
+                                dolor
+                                
+                            
+                                rutrum,
+                                
+                            
+                                magnis
+                                
+                            
+                                donec
+                                
+                            
+                                risus
+                                
+                            
+                                integer
+                                
+                            
+                                dolor.
+                                
+                            
+                                Dui
+                                
+                            
+                                iaculis
+                                
+                            
+                                aptent
+                                
+                            
+                                posuere
+                                
+                                    </li><li>
+                                
+                            
+                                sodales,
+                                
+                            
+                                inceptos
+                                
+                            
+                                morbi
+                                
+                            
+                                tristique
+                                
+                            
+                                pede,
+                                
+                            
+                                lobortis.
+                                
+                            
+                                Imperdiet
+                                
+                            
+                                natoque
+                                
+                            
+                                aliquam
+                                
+                            
+                                potenti
+                                
+                            
+                                laoreet
+                                
+                            
+                                potenti
+                                
+                            
+                                class
+                                
+                            
+                                nascetur,
+                                
+                            
+                                tincidunt
+                                
+                            
+                                litora
+                                
+                            
+                                maecenas
+                                
+                            
+                                natoque
+                                
+                            
+                                sem
+                                
+                            
+                                curae,
+                                
+                            
+                                taciti
+                                
+                            
+                                mattis
+                                
+                            
+                                litora
+                                
+                            
+                                lacus,
+                                
+                            
+                                sem
+                                
+                            
+                                consectetuer
+                                
+                            
+                                nec.
+                                
+                            
+                                Malesuada
+                                
+                            
+                                quam
+                                
+                            
+                                facilisis
+                                
+                            
+                                inceptos
+                                
+                            
+                                conubia,
+                                
+                            
+                                eu
+                                
+                            
+                                class
+                                
+                            
+                                nostra
+                                
+                            
+                                blandit
+                                
+                            
+                                taciti,
+                                
+                            
+                                cum
+                                
+                            
+                                viverra
+                                
+                            
+                                eleifend
+                                
+                            
+                                eget,
+                                
+                            
+                                luctus
+                                
+                            
+                                facilisis
+                                
+                            
+                                arcu.
+                                
+                            
+                                Laoreet
+                                
+                            
+                                ultricies
+                                
+                            
+                                sagittis
+                                
+                                    </li><li>
+                                
+                            
+                                facilisi
+                                
+                            
+                                sapien,
+                                
+                            
+                                purus
+                                
+                            
+                                nonummy
+                                
+                            
+                                pretium
+                                
+                            
+                                potenti
+                                
+                            
+                                urna,
+                                
+                            
+                                congue
+                                
+                            
+                                per
+                                
+                            
+                                imperdiet
+                                
+                            
+                                sapien
+                                
+                            
+                                suspendisse
+                                
+                            
+                                pede
+                                
+                            
+                                maecenas,.
+                                
+                            
+                                Condimentum
+                                
+                            
+                                posuere
+                                
+                            
+                                ipsum
+                                
+                            
+                                mauris
+                                
+                            
+                                vestibulum
+                                
+                            
+                                arcu,
+                                
+                            
+                                non
+                                
+                            
+                                justo
+                                
+                            
+                                volutpat
+                                
+                            
+                                suspendisse
+                                
+                            
+                                cum,
+                                
+                            
+                                hac
+                                
+                            
+                                ut
+                                
+                            
+                                sociis
+                                
+                            
+                                aliquet
+                                
+                            
+                                platea.
+                                
+                            
+                                Duis
+                                
+                            
+                                netus
+                                
+                            
+                                fames
+                                
+                            
+                                elementum,
+                                
+                            
+                                etiam
+                                
+                            
+                                enim.
+                                
+                            
+                        </li>
+                    </ul>
+                    <div id="detail_body_slider_pagination" class="slider_pagination"></div>
+                </div>
+              </div>
+            <div id="shoe_data">
+                <h3>Shoe data:</h3>
+                <p><b>Release year:</b> 2008</p>
+                <p><b>9:</b> Blazer Mid Supreme</p>
+                <p><b>Series:</b></p>
+                <p><b>Tags:</b><p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <a class="fancybox" data-fancybox-group="detail_gallery" href="http://placehold.it/770x745.jpg">
+                <img src="../../media/images/thumbnails/1.jpg">
+            </a>
+            <a class="fancybox" data-fancybox-group="detail_gallery" href="http://placehold.it/770x745.jpg">
+                <img src="../../media/images/thumbnails/2.jpg">
+            </a>
+            <a class="fancybox" data-fancybox-group="detail_gallery" href="http://placehold.it/770x745.jpg">
+                <img src="../../media/images/thumbnails/3.jpg">
+            </a>
+            <a class="fancybox" data-fancybox-group="detail_gallery" href="http://placehold.it/770x745.jpg">
+                <img src="../../media/images/thumbnails/4.jpg">
+            </a>
+        </div>
+    </div>
+
+            </div><!-- /content -->
+            
+            <div data-role="footer" data-position="fixed">
+                
+<div data-role="navbar">
+    <ul class="breadcrumbs">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../sneakers/index.html" data-ajax="false">Browse sneakers</a></li>
+        <li><a href="../../brands/index.html">Featured Brands</a></li>
+        <li><a href="blazer-mid-supreme#" class="ui-btn-active">Blazer Mid Supreme</a></li>
+    </ul>
+</div> <!--/navbar -->
+
+            </div>
+            <!--page init script must reside within jqm 'page'-->
+            
+    <script src="../../media/js/jquery.columnizer.min.js"></script>
+    <script src="../../media/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script src="../../media/js/jquery.reel.js"></script>
+    
+    <script type="text/javascript">
+        $( '#detail_362' ).live( 'pageinit',function(event){
+
+
+            var arr = [];
+            for (var x=3090; x<= 3139; x++)
+                arr.push("/media/images/50/" + "Image_" +x + ".jpg");
+            
+            $("#rotate").reel({ 
+                frames: 50,
+                suffix: "",
+                images:arr,
+                brake: 0.01, 
+                velocity: 1, 
+                preloader: 0
+            });
+
+
+        });
+    </script>
+
+        </div><!-- /page -->
+    </body>
+</html>

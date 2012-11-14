@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sneaker Book </title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+        
+            <!-- JQM functional css and theme are separated, so we can easily remove style if needed -->
+            <!-- <link rel="stylesheet" href="/media/css/themes/wireframe.min.css" /> -->
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" />
+            <link rel="stylesheet/less" type="text/css" href="../media/css/styles.less">
+            <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+        
+        
+        
+            <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+            <script src="../media/js/jqm-config.js"></script>
+            <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+            <script src="../media/js/less-1.3.0.min.js"></script>
+            <script src="../media/js/script.js"></script>
+            <script src="../media/js/jquery.fancybox.pack.js"></script>
+            <script src="../media/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+            <script src="../media/js/jquery.touchSwipe.min.js"></script>
+    
+            <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox({
+                    openEffect  : 'none',
+                    closeEffect : 'none', 
+                    padding: 0,
+                    margin: 0,
+                    closeClick: true,
+                    autoCenter: false,
+                    topRatio: 0,
+                    leftRatio: 0,
+                    beforeLoad : function() {
+                        $('#search_wrapper').hide();
+                    },
+                    afterClose : function() {
+                        $('#search_wrapper').show();
+                    }
+                });
+                $('#detail_body_slider').carouFredSel({
+                    auto: false,
+                    circular: false,
+                    infinite: false,
+                    pagination: "#detail_body_slider_pagination",
+                    scroll: {
+                        duration: 1000,
+                        easing: "quadratic"
+                    },
+                    swipe: {
+                        onTouch: true
+                    }
+                });
+
+            });
+            </script> 
+        
+    </head>
+    <body>
+        <div data-role="page" id="introduction" class="main_container type-interior ui-page">
+
+            <div data-role="header" data-theme="none" data-position="fixed">
+                <h2 class="title">Introduction</h2>
+                
+            </div>
+
+            <div data-role="content">
+                
+<div class="block_one">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt metus tristique sapien dignissim vel imperdiet massa rhoncus. Nam congue porttitor nunc, ut elementum nulla scelerisque ut. Vivamus nec diam et sem placerat pharetra. Donec nisl turpis, sodales vel elementum sit amet, auctor vitae nulla. Nunc porttitor vehicula arcu, vitae tincidunt risus fermentum sit amet. Nam quis dolor tortor, vitae sodales lacus. Suspendisse potenti. Sed feugiat imperdiet magna, vitae tempus tellus sagittis nec.</p>
+    <p>Nunc elementum lacus sit amet diam viverra sit amet sodales urna mattis. Praesent consequat lectus at quam adipiscing non semper lacus posuere. Fusce scelerisque tempus nisi nec suscipit. Etiam sapien mauris, fermentum quis sodales sed, sodales sit amet lacus. Praesent vel nunc lectus, in venenatis nisl. Suspendisse ut lorem eu magna venenatis molestie. Integer ut ante magna. Donec enim mi, vulputate et vehicula quis, facilisis commodo orci.</p>
+    <p>Vestibulum posuere felis nec urna lobortis a vehicula nisl feugiat. Aliquam ut lobortis neque. Nunc fermentum lorem at risus imperdiet luctus. Sed auctor auctor aliquam. Nullam ipsum nunc, facilisis ut consequat sit amet, fermentum sollicitudin erat. Cras nec porttitor risus. Sed mollis volutpat posuere. Quisque auctor adipiscing odio vel adipiscing. Quisque fringilla adipiscing eros, eu commodo erat mattis id. Quisque aliquet congue dolor. Sed viverra tempus imperdiet. Maecenas volutpat, leo sit amet pretium ultricies, nisl elit molestie eros, eget feugiat tortor lacus at orci. Cras mauris arcu, egestas in vestibulum in, luctus in tellus. Suspendisse blandit ullamcorper arcu, ut gravida libero ullamcorper sed.</p>
+</div>
+<img class="block_two" src="../media/images/fillers/1.jpg">
+
+
+            </div><!-- /content -->
+            
+            <div data-role="footer" data-position="fixed">
+                
+    <div data-role="navbar">
+    <ul>
+        <li><a class="home" href="../index.html">Home</a></li>
+        <li><a class="introduction" href="index.html">Introduction</a></li>
+        <li><a class="collectors_guide" href="../guide/index.html">Collector's guide</a></li>
+        <li><a class="resources" href="../resource/index.html">Resources & Outlets</a></li>
+        <li><a class="credit" href="../credit/index.html">Acknowledgements & Credits</a></li>
+    </ul>
+</div> <!--/navbar -->
+
+            </div>
+            <!--page init script must reside within jqm 'page'-->
+            
+
+        </div><!-- /page -->
+    </body>
+</html>
